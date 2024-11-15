@@ -26,9 +26,6 @@ Hacemos tres contenedores uno de apache, otro de nginx y proxy.
 
 ![image](https://github.com/user-attachments/assets/489136f6-ba26-4d22-b6ba-f5ee5cd37851)
 
-- `sites-available`, dentro de `apache` crearemos  `000-default.conf` con la configuración de la web `/fernandez`, la web `/privado` dentro de esta y sus páginas de errores.
-
-![image](https://github.com/user-attachments/assets/e8adaf08-5b54-44c0-8a9b-c2d41fcb6f67)
 
 - Creamos carpeta `website` dentro de `apache` y dentro añadimos los dintintos HTML que formarán nuestra web `/apellido` y `/privado`. Además, añadiremos el archivo `.htaccess` con la configuración de acceso.
 
